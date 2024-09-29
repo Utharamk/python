@@ -2,8 +2,8 @@ n=int(input("Enter the no of elements"))
 a=[]
 print("Enter the elements:")
 for i in range(n):
-    b=int(input())
-    a.append(b)
+    d=int(input())
+    a.append(d)
 for i in range(n):
     for j in range(i,n):
         if(a[i]>a[j]):

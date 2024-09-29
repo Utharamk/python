@@ -13,7 +13,9 @@ while True:
         p=input("enter the name:")
         for i in a:
             i[0]==p
-            print(i)        
+            print(i)    
+    if(ch==3):
+        break            
 
 
     
