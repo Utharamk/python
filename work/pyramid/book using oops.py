@@ -18,7 +18,7 @@ class Library:
     def admin_section(self):
         username = input("Enter the Username: ")
         password = input("Enter the Password: ")
-        if username == self.admincredential["username"] and password == self.admincredential["password"]:  # Corrected attribute name (admincred to admincredential)
+        if username == self.admincredential["username"] and password == self.admincredential["password"]:  
             self.admin_menu()
         else:
             print("Invalid credentials")
@@ -90,7 +90,7 @@ class Library:
                 print(f"Title: {book['title']}")
                 print(f"Author: {book['author']}")
                 print(f"Quantity: {book['quantity']}")
-                print("-------------------")
+                
         self.admin_menu()
 lib = Library()
 lib.main_menu()
